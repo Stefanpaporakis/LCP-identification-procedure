@@ -15,7 +15,7 @@ typically you'll keep this the same as the datapath
 
 q limits:
 "q" is the scattering vector, and basically your x-axis value for the plots.
-Essentually the qmin and qmax values determine where the code looks for peaks 
+Essentially the qmin and qmax values determine where the code looks for peaks 
 and plots them on the profile.
 
 Prominence:
