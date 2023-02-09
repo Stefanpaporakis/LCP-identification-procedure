@@ -117,9 +117,9 @@ def GenModelPeaks(mdl_flag, root,match_tolerence):
         return mdl_peaks
 
     if mdl_flag == 'hex':
-        a_hex = ((2*hex[0])/(root*np.sqrt(3)))
+        a_hex = (hex[0]/root)
         for hkl in hex:
-            model_peak = ((2 / np.sqrt(3)) * hkl) / a_hex
+            model_peak =  hkl / a_hex
             if qmin < model_peak < qmax:
                 mdl_peaks.append(model_peak)
         return mdl_peaks
